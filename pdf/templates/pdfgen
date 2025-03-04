@@ -1,0 +1,25 @@
+from reportlab.pdfgen import canvas
+from random import uniform
+
+def generate_random_values():
+    potassium = round(uniform(0.5, 20.0), 2)
+    ph = round(uniform(4.0, 9.0), 2)
+    nitrogen = round(uniform(0.1, 10.0), 2)
+    return potassium, ph, nitrogen
+
+def create_pdf(file_path):
+    potassium, ph, nitrogen = generate_random_values()
+
+    c = canvas.Canvas(file_path)
+
+    c.drawString(100, 750, "Random Analysis Report")
+    c.drawString(100, 730, f"Potassium: {potassium} g/L")
+    c.drawString(100, 710, f"pH: {ph}")
+    c.drawString(100, 690, f"Nitrogen: {nitrogen} g/L")
+
+    c.save()
+
+if __name__ == "__main__":
+    pdf_file_path = "random_analysis_report.pdf"
+    create_pdf(pdf_file_path)
+    print(f"PDF file '{pdf_file_path}' created successfully.")

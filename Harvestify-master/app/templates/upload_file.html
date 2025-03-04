@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Upload File</title>
+    <!-- Include any necessary CSS files or styles here -->
+</head>
+
+<body>
+    <h2 style="text-align: center; margin: 20px;">Upload a File</h2>
+
+    <div style="width: 50%; margin: 0 auto;">
+        <form method="POST" action="{{ url_for('upload_file') }}" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="file">Choose a .txt file:</label>
+                <input type="file" name="file" id="file" accept=".txt" required>
+            </div>
+
+            <div class="form-group">
+                <button type="submit">Upload</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Include any necessary scripts or additional content here -->
+</body>
+
+</html>
