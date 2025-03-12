@@ -1,4 +1,4 @@
-🌱 Precision Farming: AI-Powered Smart Agriculture Solution 🚜
+[🌱 Precision Farming: AI-Powered Smart Agriculture Solution 🚜
 
 Excited to share my work on Precision Farming, a web-based application designed to help farmers boost agricultural productivity using AI and Machine Learning. This project integrates leaf disease detection, crop recommendation, crop price prediction and fertilizer suggestions to assist farmers in making data-driven decisions.
 
@@ -17,3 +17,4 @@ Excited to share my work on Precision Farming, a web-based application designed 
 This project was a great learning experience, combining AI, data science, and web development to support sustainable farming. Looking forward to working on more impactful tech-driven solutions! 🚀
 
 #PrecisionFarming #AIinAgriculture #MachineLearning #WebDevelopment #SustainableFarming #AgriTech #FullStackDevelopment
+](https://github.com/karthikram1269/PrecisionFarming)
